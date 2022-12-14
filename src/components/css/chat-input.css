@@ -1,0 +1,33 @@
+.chatInput {
+    border-radius: 20px;
+}
+
+.chatInput>form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.chatInput>form>.tox-tinymce {
+    position: fixed;
+    bottom: 0;
+    width: 91.75%;
+    border: 1px solid gray;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-radius: 0px;
+    height: 15% !important;
+}
+
+.chatInput__sendmessage {
+    display: none !important;
+}
+
+.chatInput > form > .file__button {
+    visibility: visible;
+    z-index: 999;
+    
+    position: fixed;
+    bottom: 300px;
+    padding: 0px;
+}

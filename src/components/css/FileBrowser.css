@@ -1,0 +1,6 @@
+.fileBrowser {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+}

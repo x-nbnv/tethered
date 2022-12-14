@@ -1,0 +1,39 @@
+.message {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.message > img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.message__info{
+    padding-left: 10px;
+}
+
+.message__timestamp{
+    color:gray;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.download__card{
+    padding: 20px;
+}
+
+.image__card{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+
+.img__card__main{
+    
+}
